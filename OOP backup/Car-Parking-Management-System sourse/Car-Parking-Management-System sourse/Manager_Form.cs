@@ -15,12 +15,14 @@ namespace Car_Parking_Management_System_sourse
     public partial class Manager_Form : Form
     {
         private List<ParkingSpace> parking;
-        public Manager_Form(List<ParkingSpace> parking)
+        private List<Customer> customers;
+        public Manager_Form(List<ParkingSpace> parking, List<Customer> customers)
         {
             InitializeComponent();
             this.parking = parking;
             dataGridViewShowParkingSpace.DataSource = null;
             dataGridViewShowParkingSpace.DataSource = parking;
+            this.customers = customers;
         }
         public void writeData()
         {
@@ -143,5 +145,27 @@ namespace Car_Parking_Management_System_sourse
                 MessageBox.Show("Edit complete!", "System");
             }           
         }
+
+        private void start_chat_Click(object sender, EventArgs e)
+        {
+            if (search_id_customer_for_chat.Text == null)
+            {
+                MessageBox.Show("Plesae enter customer id!", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                for (int i = 0; i < customers.Count; i++)
+                {
+                    if (customers[i].Id == search_id_customer_for_chat.Text)
+                    {
+                        Messenger Form = new Messenger(customers[i].Id, "MA001", customers[i].Fullname);
+                        Form.ShowDialog();
+                        return;
+                    }
+                }
+                MessageBox.Show("Incorrect information", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
     }
 }

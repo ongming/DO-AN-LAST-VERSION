@@ -117,7 +117,7 @@ namespace Car_Parking_Management_System_sourse
                     if (username == Mangerlist[i].Username && password == Mangerlist[i].Password)
                     {
                         MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Manager_Form newForm = new Manager_Form(parkingSpaces);
+                        Manager_Form newForm = new Manager_Form(parkingSpaces,customerList);
                         this.Hide();
                         newForm.ShowDialog();
                         this.Close();
