@@ -150,7 +150,7 @@ namespace Car_Parking_Management_System_sourse
                     {
                         string name = $"{customerList[i].Firstname}{" "}{customerList[i].Lastname}";
                         MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Customer_Form newForm = new Customer_Form(name, customerList[i].Id, parkingSpaces,customerList);
+                        Customer_Form newForm = new Customer_Form(name, customerList[i].Id, parkingSpaces, customerList, customerList[i].Wallet);
                         this.Hide();
                         newForm.ShowDialog();
                         this.Close();

@@ -1,24 +1,24 @@
 COM001
-72H-88888
-Honda
-Wait...
-30$/time
-Wait...
-VIP001
-93812931
-1321
-Wait...
-65$/time
-Wait...
-VIP002
 
 
 Empty
-70$/time
+1$/time
+
+VIP001
+
+
+Empty
+8$/time
 
 COM002
 
 
 Empty
-25$/time
+2$/time
+
+VIP002
+
+
+Empty
+6$/time
 

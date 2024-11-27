@@ -62,7 +62,7 @@ namespace Car_Parking_Management_System_sourse
                     if (newCustomer[i].Id == id)
                     {
                         this.Hide();
-                        Customer_Form newform = new Customer_Form(newCustomer[i].Fullname,newCustomer[i].Id, newparkingspace,newCustomer);
+                        Customer_Form newform = new Customer_Form(newCustomer[i].Fullname,newCustomer[i].Id, newparkingspace, newCustomer, newCustomer[i].Wallet);
                         newform.ShowDialog();
                         this.Close();
                     }
@@ -74,6 +74,11 @@ namespace Car_Parking_Management_System_sourse
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if(txtfirstname.Text==null || txtlastname.Text==null || txtPhonenumber.Text==null || txtAge.Text==null || txtUsername.Text==null || txtPassword.Text == null)
+            {
+                MessageBox.Show("Don't let any Information Empty!", "System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             for (int i = 0; i < newCustomer.Count; i++)
             {
                 if (newCustomer[i].Id == id)

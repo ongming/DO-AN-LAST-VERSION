@@ -20,13 +20,16 @@ namespace Car_Parking_Management_System_sourse
         List<ParkingSpace> parkingSpaces;
         string id;
         string name;
-        public Customer_Form(string name,string id,List<ParkingSpace> parking,List<Customer> customers)
+        int wallet;
+        public Customer_Form(string name,string id,List<ParkingSpace> parking,List<Customer> customers,int wallet)
         {
             this.parkingSpaces = parking;
             this.customers = customers;
-            this.id = id;
+            this.id = id; 
             this.name = name;
+            this.wallet = wallet;
             InitializeComponent();
+            lbMoney.Text = wallet+"$";
             lbname.Text = name;
             // Tắt tự động tạo cột
             dataGridviewParkingSpace.AutoGenerateColumns = false;
@@ -82,11 +85,20 @@ namespace Car_Parking_Management_System_sourse
         }
         private void btnSignParking_Click(object sender, EventArgs e)
         {
-            for(int i=0;i<parkingSpaces.Count;i++)
+            string money;
+            int moneyleft=0;
+            for (int i=0;i<parkingSpaces.Count;i++)
             {
                 if (txtIDSpace.Text == parkingSpaces[i].Id_carparking && (parkingSpaces[i].Status == "Hired" || parkingSpaces[i].Status == "Wait..."))
                 {
                     MessageBox.Show("This Parking Space is selected!", "System");
+                    return;
+                }
+                money = new string(parkingSpaces[i].Cost.Where(c => char.IsDigit(c)).ToArray());
+                moneyleft = int.Parse(money);
+                if (txtIDSpace.Text== parkingSpaces[i].Id_carparking && this.wallet < moneyleft)
+                {
+                    MessageBox.Show("You don't have enough Money!", "System");
                     return;
                 }
             }
@@ -103,6 +115,9 @@ namespace Car_Parking_Management_System_sourse
                             MessageBox.Show("Please! Wait our Attendant reply your Request\nThanks for using my service", "System");
                             dataGridviewParkingSpace.DataSource = null;
                             dataGridviewParkingSpace.DataSource = parkingSpaces;
+                            money = new string(parkingSpaces[j].Cost.Where(c => char.IsDigit(c)).ToArray());
+                            moneyleft = int.Parse(money);
+                            customers[i].Wallet -= moneyleft;
                             writeData();
                             return;
                         }
@@ -176,9 +191,30 @@ namespace Car_Parking_Management_System_sourse
             newform.Show();
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
+        private void btnAddFunds_Click(object sender, EventArgs e)
         {
-            lbname.Text = name;
+            for(int i=0;i< customers.Count;i++)
+            {
+                if (customers[i].Id==this.id)
+                {
+                    AddFunds_Form form = new AddFunds_Form(customers[i].Wallet, customers[i],this.id);
+                    form.ShowDialog();
+                    break;
+                }
+            }
+            Customer.WriteCustomerList(customers);
+        }
+
+        private void pictureBoxRestart_Click(object sender, EventArgs e)
+        {
+            for(int i=0; i< customers.Count;i++)
+            {
+                if (customers[i].Id == id)
+                {
+                    lbMoney.Text = customers[i].Wallet + "$";
+                    this.wallet = customers[i].Wallet;
+                }
+            }
         }
     }
 }

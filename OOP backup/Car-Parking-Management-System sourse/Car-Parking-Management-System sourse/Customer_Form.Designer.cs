@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.lbname = new System.Windows.Forms.Label();
             this.groupBoxSignInSpace = new System.Windows.Forms.GroupBox();
@@ -42,6 +42,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridviewParkingSpace = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnAddFunds = new System.Windows.Forms.Button();
             this.btnChat = new System.Windows.Forms.Button();
             this.btnShowInfor = new System.Windows.Forms.Button();
             this.btnLogOut = new System.Windows.Forms.Button();
@@ -56,14 +57,16 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtSearchSpace = new System.Windows.Forms.TextBox();
             this.lbSearchSpace = new System.Windows.Forms.Label();
-            this.txtFeedBackCustomer = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lbMoney = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.close_button = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRestart = new System.Windows.Forms.PictureBox();
             this.groupBoxSignInSpace.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridviewParkingSpace)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -75,7 +78,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRestart)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -198,26 +201,26 @@
             this.dataGridviewParkingSpace.AllowUserToOrderColumns = true;
             this.dataGridviewParkingSpace.BackgroundColor = System.Drawing.Color.White;
             this.dataGridviewParkingSpace.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridviewParkingSpace.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridviewParkingSpace.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridviewParkingSpace.Location = new System.Drawing.Point(317, 470);
             this.dataGridviewParkingSpace.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridviewParkingSpace.Name = "dataGridviewParkingSpace";
             this.dataGridviewParkingSpace.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridviewParkingSpace.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridviewParkingSpace.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridviewParkingSpace.RowHeadersWidth = 51;
             this.dataGridviewParkingSpace.RowTemplate.Height = 24;
             this.dataGridviewParkingSpace.Size = new System.Drawing.Size(357, 268);
@@ -226,29 +229,43 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.btnAddFunds);
             this.groupBox1.Controls.Add(this.btnChat);
             this.groupBox1.Controls.Add(this.btnShowInfor);
             this.groupBox1.Controls.Add(this.btnLogOut);
             this.groupBox1.Controls.Add(this.btnHelp);
+            this.groupBox1.Controls.Add(this.btnSendFeedback);
             this.groupBox1.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox1.Location = new System.Drawing.Point(49, 137);
+            this.groupBox1.Location = new System.Drawing.Point(49, 181);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(248, 270);
+            this.groupBox1.Size = new System.Drawing.Size(248, 341);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "System:";
+            // 
+            // btnAddFunds
+            // 
+            this.btnAddFunds.Font = new System.Drawing.Font(".VnArialH", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddFunds.Location = new System.Drawing.Point(33, 280);
+            this.btnAddFunds.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAddFunds.Name = "btnAddFunds";
+            this.btnAddFunds.Size = new System.Drawing.Size(184, 46);
+            this.btnAddFunds.TabIndex = 4;
+            this.btnAddFunds.Text = "Add Funds";
+            this.btnAddFunds.UseVisualStyleBackColor = true;
+            this.btnAddFunds.Click += new System.EventHandler(this.btnAddFunds_Click);
             // 
             // btnChat
             // 
             this.btnChat.Font = new System.Drawing.Font(".VnArialH", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnChat.Location = new System.Drawing.Point(33, 191);
+            this.btnChat.Location = new System.Drawing.Point(33, 125);
             this.btnChat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChat.Name = "btnChat";
-            this.btnChat.Size = new System.Drawing.Size(184, 49);
+            this.btnChat.Size = new System.Drawing.Size(184, 47);
             this.btnChat.TabIndex = 3;
             this.btnChat.Text = "Chat with Our Attendant";
             this.btnChat.UseVisualStyleBackColor = true;
@@ -269,10 +286,10 @@
             // 
             this.btnLogOut.Font = new System.Drawing.Font(".VnArialH", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLogOut.Location = new System.Drawing.Point(33, 143);
+            this.btnLogOut.Location = new System.Drawing.Point(33, 176);
             this.btnLogOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Size = new System.Drawing.Size(184, 34);
+            this.btnLogOut.Size = new System.Drawing.Size(184, 50);
             this.btnLogOut.TabIndex = 1;
             this.btnLogOut.Text = "LOGOUT";
             this.btnLogOut.UseVisualStyleBackColor = true;
@@ -282,10 +299,10 @@
             // 
             this.btnHelp.Font = new System.Drawing.Font(".VnArialH", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHelp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnHelp.Location = new System.Drawing.Point(33, 89);
+            this.btnHelp.Location = new System.Drawing.Point(33, 78);
             this.btnHelp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(184, 33);
+            this.btnHelp.Size = new System.Drawing.Size(184, 43);
             this.btnHelp.TabIndex = 0;
             this.btnHelp.Text = "HELP";
             this.btnHelp.UseVisualStyleBackColor = true;
@@ -293,10 +310,10 @@
             // btnSendFeedback
             // 
             this.btnSendFeedback.Font = new System.Drawing.Font(".VnArialH", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSendFeedback.Location = new System.Drawing.Point(82, 704);
+            this.btnSendFeedback.Location = new System.Drawing.Point(33, 230);
             this.btnSendFeedback.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSendFeedback.Name = "btnSendFeedback";
-            this.btnSendFeedback.Size = new System.Drawing.Size(184, 34);
+            this.btnSendFeedback.Size = new System.Drawing.Size(184, 46);
             this.btnSendFeedback.TabIndex = 2;
             this.btnSendFeedback.Text = "SEND FEEDBACK";
             this.btnSendFeedback.UseVisualStyleBackColor = true;
@@ -310,7 +327,7 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(49, 420);
+            this.groupBox2.Location = new System.Drawing.Point(49, 545);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -402,13 +419,34 @@
             this.lbSearchSpace.TabIndex = 0;
             this.lbSearchSpace.Text = "ID of Paking Space:";
             // 
-            // txtFeedBackCustomer
+            // label7
             // 
-            this.txtFeedBackCustomer.Location = new System.Drawing.Point(49, 627);
-            this.txtFeedBackCustomer.Multiline = true;
-            this.txtFeedBackCustomer.Name = "txtFeedBackCustomer";
-            this.txtFeedBackCustomer.Size = new System.Drawing.Size(248, 72);
-            this.txtFeedBackCustomer.TabIndex = 15;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Ivory;
+            this.label7.Location = new System.Drawing.Point(45, 143);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(101, 20);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Wallet:";
+            // 
+            // lbMoney
+            // 
+            this.lbMoney.AutoSize = true;
+            this.lbMoney.ForeColor = System.Drawing.Color.Yellow;
+            this.lbMoney.Location = new System.Drawing.Point(152, 147);
+            this.lbMoney.Name = "lbMoney";
+            this.lbMoney.Size = new System.Drawing.Size(0, 16);
+            this.lbMoney.TabIndex = 19;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(-19, -19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // close_button
             // 
@@ -472,16 +510,16 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox6
+            // pictureBoxRestart
             // 
-            this.pictureBox6.Image = global::Car_Parking_Management_System_sourse.Properties.Resources.image_removebg_preview__2_1;
-            this.pictureBox6.Location = new System.Drawing.Point(275, 92);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(22, 22);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 18;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.pictureBoxRestart.Image = global::Car_Parking_Management_System_sourse.Properties.Resources.image_removebg_preview__2_;
+            this.pictureBoxRestart.Location = new System.Drawing.Point(276, 146);
+            this.pictureBoxRestart.Name = "pictureBoxRestart";
+            this.pictureBoxRestart.Size = new System.Drawing.Size(21, 19);
+            this.pictureBoxRestart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxRestart.TabIndex = 21;
+            this.pictureBoxRestart.TabStop = false;
+            this.pictureBoxRestart.Click += new System.EventHandler(this.pictureBoxRestart_Click);
             // 
             // Customer_Form
             // 
@@ -489,12 +527,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(74)))), ((int)(((byte)(135)))));
             this.ClientSize = new System.Drawing.Size(720, 775);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBoxRestart);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lbMoney);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.close_button);
-            this.Controls.Add(this.txtFeedBackCustomer);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.btnSendFeedback);
             this.Controls.Add(this.dataGridviewParkingSpace);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxSignInSpace);
@@ -526,7 +565,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRestart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -559,7 +598,6 @@
         private System.Windows.Forms.TextBox txtSearchSpace;
         private System.Windows.Forms.Label lbSearchSpace;
         private System.Windows.Forms.Button btnShowInfor;
-        private System.Windows.Forms.TextBox txtFeedBackCustomer;
         private System.Windows.Forms.TextBox txtPassReceiveCar;
         private System.Windows.Forms.TextBox txtTicketseriReceiveCar;
         private System.Windows.Forms.Label label5;
@@ -567,6 +605,10 @@
         private System.Windows.Forms.Button btnReceiveCar;
         private System.Windows.Forms.PictureBox close_button;
         private System.Windows.Forms.Button btnChat;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbMoney;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAddFunds;
+        private System.Windows.Forms.PictureBox pictureBoxRestart;
     }
 }

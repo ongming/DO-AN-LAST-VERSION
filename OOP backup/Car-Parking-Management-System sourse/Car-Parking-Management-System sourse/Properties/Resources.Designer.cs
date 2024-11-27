@@ -63,6 +63,26 @@ namespace Car_Parking_Management_System_sourse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ảnh_QR {
+            get {
+                object obj = ResourceManager.GetObject("Ảnh QR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ảnh_QR1 {
+            get {
+                object obj = ResourceManager.GetObject("Ảnh QR1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap atmo {
             get {
                 object obj = ResourceManager.GetObject("atmo", resourceCulture);

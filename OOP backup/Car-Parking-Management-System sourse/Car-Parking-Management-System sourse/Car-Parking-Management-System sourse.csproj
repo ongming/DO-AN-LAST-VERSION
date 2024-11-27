@@ -101,6 +101,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddFunds_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFunds_Form.Designer.cs">
+      <DependentUpon>AddFunds_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Attendant _Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     </Compile>
     <Compile Include="System.cs" />
     <Compile Include="Ticket.cs" />
+    <EmbeddedResource Include="AddFunds_Form.resx">
+      <DependentUpon>AddFunds_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Attendant _Form.resx">
       <DependentUpon>Attendant _Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -269,6 +278,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icon_messenger-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh QR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh QR1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -201,6 +201,18 @@ namespace Car_Parking_Management_System_sourse
                 if (txtIDDenyParking.Text == customers[i].Id)
                 {
                     var newdata = combineDataParking.Where(c => c.Id != txtIDDenyParking.Text).ToList();
+                    for (int n = 0; n < parkingSpaces.Count; n++)
+                    {
+                        if (parkingSpaces[n].Id_carparking == customers[i].Request.Substring(25))
+                        {
+                            parkingSpaces[n].Status = "Empty";
+                            parkingSpaces[n].Ticketseri = "";
+                            parkingSpaces[n].Numberplate = "";
+                            parkingSpaces[n].Name_car = "";
+                            ParkingSpace.writeparkingdata(parkingSpaces);
+                            break;
+                        }
+                    }
                     customers[i].changeInfo("no request");
                     combineDataParking = newdata;
                     break;
