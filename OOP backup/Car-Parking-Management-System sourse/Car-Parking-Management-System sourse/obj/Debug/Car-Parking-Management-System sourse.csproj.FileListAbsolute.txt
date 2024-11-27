@@ -1,0 +1,186 @@
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe.config
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.pdb
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.AssemblyReference.cache
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Login.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Properties.Resources.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.GenerateResource.cache
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.CoreCompileInputs.cache
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.exe
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.pdb
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.Licensing.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Park.32FD6A5A.Up2Date
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Design.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Fonts.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Register.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Manager_Form.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Form.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Attendant__Form.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe.config
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.pdb
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.Licensing.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Design.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Attendant__Form.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Form.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Infor.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Login.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Manager_Form.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Register.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Park.32FD6A5A.Up2Date
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.exe
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.pdb
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe.config
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.pdb
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.Licensing.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Design.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Fonts.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.dll
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.xml
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.AssemblyReference.cache
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Attendant__Form.resources
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Form.resources
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Infor.resources
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Login.resources
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Manager_Form.resources
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Messenger.resources
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Properties.Resources.resources
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Register.resources
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.GenerateResource.cache
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.CoreCompileInputs.cache
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Park.32FD6A5A.Up2Date
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.exe
+D:\Desktop\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.pdb
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe.config
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.pdb
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.Licensing.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Design.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.dll
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.xml
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Attendant__Form.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Form.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Infor.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Login.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Manager_Form.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Messenger.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Register.resources
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Park.32FD6A5A.Up2Date
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.exe
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.pdb
+C:\Users\ASUS\OneDrive\Documents\Máy tính\OOP backup (1)\OOP backup\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Chat_Select.resources
