@@ -18,38 +18,61 @@ namespace Car_Parking_Management_System_sourse
         private string filePath;
         private string id_customer;
         private string id_attendant;
+        string name_customer;
+        string name_attendant;
         bool flag;
-        List<Customer> customerList;
-        public Messenger(string id_customer, string id_attendant, bool flag, List<Customer> customerList,string name)
+        public Messenger(string id_customer, string id_attendant, string name_customer)
         {
             InitializeComponent();
             filePath = $"{id_customer}_{id_attendant}.txt";
-            this.flag = flag;
             this.id_attendant = id_attendant;
             this.id_customer = id_customer;
-            name_user.Text = name;
+            this.name_customer = name_customer;
+            name_user.Text = name_customer;
+            flag = true;
             LoadMessages();
-            this.customerList = customerList;
-
+        }
+        public Messenger(string id_customer, string id_attendant, string name_customer,string name_attendant)
+        {
+            InitializeComponent();
+            filePath = $"{id_customer}_{id_attendant}.txt";
+            this.id_attendant = id_attendant;
+            this.id_customer = id_customer;
+            this.name_customer = name_customer;
+            this.name_attendant = name_attendant;
+            name_user.Text = name_attendant;
+            flag = false;
+            LoadMessages();
         }
 
         private void LoadMessages()
         {
+
             flowLayoutPanelMessages.Controls.Clear();
 
             if (File.Exists(filePath))
             {
                 string[] lines = File.ReadAllLines(filePath);
 
-                foreach (string line in lines)
+                int linesToProcess = 4;
+                int startIndex = Math.Max(0, lines.Length - linesToProcess);
+
+                for (int i = startIndex; i < lines.Length; i++)
                 {
-                    //bool is_attendant = line.Contains("id:" + id_attendant);
-                    AddMessageToPanel(line, flag);
+                    string line = lines[i];
+                    if (string.IsNullOrWhiteSpace(line))
+                    {
+                        line = lines[i + 1];
+                        i = i + 1;
+                    }
+                    bool is_attendant = line.Contains("id:" + id_attendant);
+                    AddMessageToPanel(EditMessage(line), is_attendant);
                 }
+
             }
         }
 
-        private void AddMessageToPanel(string message, bool flag)
+        private void AddMessageToPanel(string message, bool is_attendant)
         {
 
             Panel messagePanel = new Panel
@@ -57,9 +80,9 @@ namespace Car_Parking_Management_System_sourse
                 AutoSize = true,
                 Padding = new Padding(10),
                 Margin = new Padding(5),
-                BackColor = flag ? Color.LightGreen : Color.LightBlue,
             };
 
+            // Tạo Label hiển thị tin nhắn
             Label messageLabel = new Label
             {
                 Text = message,
@@ -70,30 +93,57 @@ namespace Car_Parking_Management_System_sourse
 
             messagePanel.Controls.Add(messageLabel);
 
+
+            if (flag)
+            {
+                messagePanel.BackColor = is_attendant ? Color.LightBlue : Color.LightGreen;
+                messagePanel.Margin = is_attendant ? new Padding(150, 5, 5, 5) : new Padding(5, 5, 150, 5);
+            }
+            else
+            {
+                messagePanel.BackColor = is_attendant ? Color.LightGreen : Color.LightBlue;
+                messagePanel.Margin = is_attendant ? new Padding(5, 5, 150, 5) : new Padding(150, 5, 5, 5);
+            }
+
             flowLayoutPanelMessages.Controls.Add(messagePanel);
+        }
+        private string EditMessage(string input)
+        {
+            string firstPart = input.Substring(0, Math.Min(21, input.Length)).Trim();
+
+            string secondPart = input.Length > 21 ? input.Substring(21).Trim() : string.Empty;
+            int count = 0;
+            for (int i = 0; i < secondPart.Length; i++)
+            {
+                count += 1;
+                if (count >= 28)
+                {
+                    if (secondPart[i].ToString() == " " || count == 33)
+                    {
+                        secondPart = secondPart.Substring(0, i) + '\n' + secondPart.Substring(i + 1);
+                        count = 0;
+                    }
+                }
+            }
+            return $"{firstPart}\n{secondPart}";
         }
 
 
 
         private void send_message_Click(object sender, EventArgs e)
         {
-            string message = text_input.Text.Trim();
+            string message = text_input.Text.Replace("\r", "").Replace("\n", "");
 
-            for (int i = 0;i<customerList.Count;i++)
+            if (!string.IsNullOrEmpty(message))
             {
-                if (customerList[i].Id == id_customer)
-                {
-                    if (!string.IsNullOrEmpty(message))
-                    {
-                        string senderId = flag ? id_attendant : id_customer;
-                        string formattedMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {customerList[i].Fullname}: {message}";
-                        File.AppendAllText(filePath, formattedMessage + Environment.NewLine);
+                string senderId = flag ? id_attendant : name_customer;
+                string formattedMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {senderId}: {message}";
 
-                        AddMessageToPanel(formattedMessage, flag);
+                File.AppendAllText(filePath, formattedMessage + Environment.NewLine);
 
-                        text_input.Clear();
-                    }
-                }
+                AddMessageToPanel(EditMessage(formattedMessage), flag);
+
+                text_input.Clear();
             }
         }
 
@@ -104,11 +154,8 @@ namespace Car_Parking_Management_System_sourse
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-            //Messenger form = new Messenger(id_customer,id_attendant,flag);
-            //form.ShowDialog();
-            //this.Close();
-            flowLayoutPanelMessages.Controls.Clear();
+
+            LoadMessages();
         }
 
 
