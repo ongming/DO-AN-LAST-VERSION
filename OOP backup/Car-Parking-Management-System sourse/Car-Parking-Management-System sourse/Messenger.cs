@@ -65,7 +65,7 @@ namespace Car_Parking_Management_System_sourse
                         line = lines[i + 1];
                         i = i + 1;
                     }
-                    bool is_attendant = line.Contains("id:" + id_attendant);
+                    bool is_attendant = line.Contains(id_attendant);
                     AddMessageToPanel(EditMessage(line), is_attendant);
                 }
 

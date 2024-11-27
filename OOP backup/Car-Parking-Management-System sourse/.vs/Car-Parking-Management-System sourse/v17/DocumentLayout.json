@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|c:\\users\\administrator\\do-an-last-version\\oop backup\\car-parking-management-system sourse\\car-parking-management-system sourse\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\chat_select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\chat_select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\chat_select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\chat_select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|c:\\users\\administrator\\do-an-last-version\\oop backup\\car-parking-management-system sourse\\car-parking-management-system sourse\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\attendant _form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\attendant _form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\customer_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\customer_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\manager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\manager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\manager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\manager_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\customer_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\customer_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|c:\\users\\administrator\\do-an-last-version\\oop backup\\car-parking-management-system sourse\\car-parking-management-system sourse\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\car-parking-management-system sourse\\customer_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7EEB80C-91BA-444D-9D9C-48134D4C4D61}|Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse.csproj|solutionrelative:car-parking-management-system sourse\\customer_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,12 +74,11 @@
               "RelativeToolTip": "Car-Parking-Management-System sourse\\Messenger.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T13:50:16.849Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Customer_Form.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer_Form.cs",
               "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Customer_Form.cs",
@@ -63,12 +86,11 @@
               "RelativeToolTip": "Car-Parking-Management-System sourse\\Customer_Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T02:07:47.668Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Chat_Select.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Chat_Select.cs",
               "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Chat_Select.cs",
@@ -76,51 +98,46 @@
               "RelativeToolTip": "Car-Parking-Management-System sourse\\Chat_Select.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T14:45:37.32Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer.cs",
-              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Customer.cs",
-              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer.cs",
-              "RelativeToolTip": "Car-Parking-Management-System sourse\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T13:20:27.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Messenger.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Messenger.cs",
-              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Messenger.cs",
-              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Messenger.cs",
-              "RelativeToolTip": "Car-Parking-Management-System sourse\\Messenger.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:56:27.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer_Form.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer_Form.cs",
-              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Customer_Form.cs",
-              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer_Form.cs",
-              "RelativeToolTip": "Car-Parking-Management-System sourse\\Customer_Form.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAK4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:25:32.789Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Manager.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Manager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Manager.cs",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:19:44.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chat_Select.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Chat_Select.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Chat_Select.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Chat_Select.cs",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Chat_Select.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:19:03.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Attendant _Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Attendant _Form.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Attendant _Form.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Attendant _Form.cs [Design]",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Attendant _Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:18:55.324Z"
             },
             {
               "$type": "Document",
@@ -133,6 +150,77 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T02:22:56.492Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Manager_Form.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Manager_Form.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Manager_Form.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Manager_Form.cs",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Manager_Form.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAuwKUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:43:53.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Manager_Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Manager_Form.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Manager_Form.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Manager_Form.cs [Design]",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Manager_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:43:37.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Login.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Login.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Login.cs",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Login.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAwHcAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:45:09.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Messenger.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Messenger.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Messenger.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Messenger.cs",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Messenger.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowEMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:56:27.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Customer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer.cs",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:20:27.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer_Form.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer_Form.cs",
+              "RelativeDocumentMoniker": "Car-Parking-Management-System sourse\\Customer_Form.cs",
+              "ToolTip": "C:\\Users\\Administrator\\DO-AN-LAST-VERSION\\OOP backup\\Car-Parking-Management-System sourse\\Car-Parking-Management-System sourse\\Customer_Form.cs",
+              "RelativeToolTip": "Car-Parking-Management-System sourse\\Customer_Form.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAK4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T01:25:32.789Z"
             }
           ]
         }

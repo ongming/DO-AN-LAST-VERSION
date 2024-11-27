@@ -27,6 +27,7 @@ namespace Car_Parking_Management_System_sourse
                 if (customers[i].Id == id)
                 {
                     this.name = customers[i].Fullname;
+                    break;
                 }
             }
         }
