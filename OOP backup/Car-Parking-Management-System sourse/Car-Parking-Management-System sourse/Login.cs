@@ -13,9 +13,28 @@ namespace Car_Parking_Management_System_sourse
 {
     public partial class Login : Form
     {
+        List<Customer> customerList = new List<Customer>();
         public Login()
         {
             InitializeComponent();
+            using (StreamReader cl = new StreamReader("Customer.txt"))
+            {
+                cl.ReadLine();
+                while (!cl.EndOfStream)
+                {
+                    customerList.Add(new Customer(cl.ReadLine(),
+                                                  cl.ReadLine(),
+                                                  cl.ReadLine(),
+                                                  Convert.ToInt32(cl.ReadLine()),
+                                                  cl.ReadLine(),
+                                                  cl.ReadLine(),
+                                                  cl.ReadLine(),
+                                                  cl.ReadLine(),
+                                                  cl.ReadLine(),
+                                                  cl.ReadLine(),
+                                                  Convert.ToInt32(cl.ReadLine())));
+                }
+            }
         }
 
         private bool isMatDong = true;
@@ -38,7 +57,6 @@ namespace Car_Parking_Management_System_sourse
         private void btnLogin_Click(object sender, EventArgs e)
         {
             List<ParkingSpace> parkingSpaces = new List<ParkingSpace>();
-            List<Customer> customerList = new List<Customer>();
             List<Attendant> attendants = new List<Attendant>();
             bool loginSucces = false;
             string username = txtUserLogin.Text;
@@ -55,25 +73,6 @@ namespace Car_Parking_Management_System_sourse
                                                        pl.ReadLine(),
                                                        pl.ReadLine()));
 
-                }
-            }
-
-            using (StreamReader cl = new StreamReader("Customer.txt"))
-            {
-                cl.ReadLine();
-                while (!cl.EndOfStream)
-                {
-                    customerList.Add(new Customer(cl.ReadLine(),
-                                                  cl.ReadLine(),
-                                                  cl.ReadLine(),
-                                                  Convert.ToInt32(cl.ReadLine()),
-                                                  cl.ReadLine(),
-                                                  cl.ReadLine(),
-                                                  cl.ReadLine(),
-                                                  cl.ReadLine(),
-                                                  cl.ReadLine(),
-                                                  cl.ReadLine(),
-                                                  Convert.ToInt32(cl.ReadLine())));
                 }
             }
             using (StreamReader al =new StreamReader("Attendant.txt"))
@@ -169,7 +168,7 @@ namespace Car_Parking_Management_System_sourse
 
         private void linlbRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Register form = new Register();
+            Register form = new Register(customerList);
             form.ShowDialog();
         }
         private void btnExit_Click(object sender, EventArgs e)

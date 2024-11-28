@@ -216,5 +216,17 @@ namespace Car_Parking_Management_System_sourse
                 }
             }
         }
+
+        private void btnSendFeedback_Click(object sender, EventArgs e)
+        {
+            Feedback_form form =new Feedback_form(this.id,this.name);
+            form.ShowDialog();
+        }
+
+        private void pictureBoxBell_Click(object sender, EventArgs e)
+        {
+            Notification_Form form = new Notification_Form(this.id);
+            form.ShowDialog();
+        }
     }
 }

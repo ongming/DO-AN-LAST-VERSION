@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.lbname = new System.Windows.Forms.Label();
             this.groupBoxSignInSpace = new System.Windows.Forms.GroupBox();
@@ -60,25 +60,27 @@
             this.label7 = new System.Windows.Forms.Label();
             this.lbMoney = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBoxRestart = new System.Windows.Forms.PictureBox();
             this.close_button = new System.Windows.Forms.PictureBox();
+            this.pictureBoxBell = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxRestart = new System.Windows.Forms.PictureBox();
             this.groupBoxSignInSpace.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridviewParkingSpace)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRestart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.close_button)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBell)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRestart)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -106,6 +108,7 @@
             // groupBoxSignInSpace
             // 
             this.groupBoxSignInSpace.BackColor = System.Drawing.Color.White;
+            this.groupBoxSignInSpace.Controls.Add(this.pictureBoxBell);
             this.groupBoxSignInSpace.Controls.Add(this.txtNameCar);
             this.groupBoxSignInSpace.Controls.Add(this.label6);
             this.groupBoxSignInSpace.Controls.Add(this.btnSignParking);
@@ -201,26 +204,26 @@
             this.dataGridviewParkingSpace.AllowUserToOrderColumns = true;
             this.dataGridviewParkingSpace.BackgroundColor = System.Drawing.Color.White;
             this.dataGridviewParkingSpace.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridviewParkingSpace.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridviewParkingSpace.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridviewParkingSpace.Location = new System.Drawing.Point(317, 470);
             this.dataGridviewParkingSpace.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridviewParkingSpace.Name = "dataGridviewParkingSpace";
             this.dataGridviewParkingSpace.ReadOnly = true;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridviewParkingSpace.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridviewParkingSpace.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridviewParkingSpace.RowHeadersWidth = 51;
             this.dataGridviewParkingSpace.RowTemplate.Height = 24;
             this.dataGridviewParkingSpace.Size = new System.Drawing.Size(357, 268);
@@ -317,6 +320,7 @@
             this.btnSendFeedback.TabIndex = 2;
             this.btnSendFeedback.Text = "SEND FEEDBACK";
             this.btnSendFeedback.UseVisualStyleBackColor = true;
+            this.btnSendFeedback.Click += new System.EventHandler(this.btnSendFeedback_Click);
             // 
             // groupBox2
             // 
@@ -448,6 +452,17 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // pictureBoxRestart
+            // 
+            this.pictureBoxRestart.Image = global::Car_Parking_Management_System_sourse.Properties.Resources.image_removebg_preview__2_;
+            this.pictureBoxRestart.Location = new System.Drawing.Point(276, 146);
+            this.pictureBoxRestart.Name = "pictureBoxRestart";
+            this.pictureBoxRestart.Size = new System.Drawing.Size(21, 19);
+            this.pictureBoxRestart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxRestart.TabIndex = 21;
+            this.pictureBoxRestart.TabStop = false;
+            this.pictureBoxRestart.Click += new System.EventHandler(this.pictureBoxRestart_Click);
+            // 
             // close_button
             // 
             this.close_button.Image = global::Car_Parking_Management_System_sourse.Properties.Resources.image_removebg_preview__1_;
@@ -459,6 +474,17 @@
             this.close_button.TabIndex = 17;
             this.close_button.TabStop = false;
             this.close_button.Click += new System.EventHandler(this.close_button_Click);
+            // 
+            // pictureBoxBell
+            // 
+            this.pictureBoxBell.Image = global::Car_Parking_Management_System_sourse.Properties.Resources.chuông_removebg_preview;
+            this.pictureBoxBell.Location = new System.Drawing.Point(260, 211);
+            this.pictureBoxBell.Name = "pictureBoxBell";
+            this.pictureBoxBell.Size = new System.Drawing.Size(44, 41);
+            this.pictureBoxBell.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxBell.TabIndex = 22;
+            this.pictureBoxBell.TabStop = false;
+            this.pictureBoxBell.Click += new System.EventHandler(this.pictureBoxBell_Click);
             // 
             // pictureBox4
             // 
@@ -510,17 +536,6 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBoxRestart
-            // 
-            this.pictureBoxRestart.Image = global::Car_Parking_Management_System_sourse.Properties.Resources.image_removebg_preview__2_;
-            this.pictureBoxRestart.Location = new System.Drawing.Point(276, 146);
-            this.pictureBoxRestart.Name = "pictureBoxRestart";
-            this.pictureBoxRestart.Size = new System.Drawing.Size(21, 19);
-            this.pictureBoxRestart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxRestart.TabIndex = 21;
-            this.pictureBoxRestart.TabStop = false;
-            this.pictureBoxRestart.Click += new System.EventHandler(this.pictureBoxRestart_Click);
-            // 
             // Customer_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -559,13 +574,14 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRestart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.close_button)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBell)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRestart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -610,5 +626,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnAddFunds;
         private System.Windows.Forms.PictureBox pictureBoxRestart;
+        private System.Windows.Forms.PictureBox pictureBoxBell;
     }
 }
