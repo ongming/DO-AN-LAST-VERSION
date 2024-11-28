@@ -65,5 +65,10 @@ namespace Car_Parking_Management_System_sourse
         {
             throw new NotImplementedException();
         }
+        public override string ToString()
+        {
+            return $"{id_carparking} {numberplate} {name_car} {cost} {ticketseri}";
+        }
+
     }
 }

@@ -1,24 +1,42 @@
 COM001
 
 
+Hired
+5$/time
+QMTL4754
+COM003
+
+
 Empty
-1$/time
+5$/time
+
+COM004
+
+
+Empty
+5$/time
 
 VIP001
 
 
 Empty
-8$/time
-
-COM002
-
-
-Empty
-2$/time
+5$/time
 
 VIP002
 
 
 Empty
-6$/time
+5$/time
 
+VIP003
+
+
+Wait...
+5$/time
+Wait...
+VIP004
+
+
+Wait...
+5$/time
+Wait...
