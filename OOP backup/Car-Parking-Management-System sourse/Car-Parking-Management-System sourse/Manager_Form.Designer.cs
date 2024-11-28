@@ -64,11 +64,13 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.feedback = new System.Windows.Forms.RichTextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.showsalary = new System.Windows.Forms.Label();
+            this.calsalary = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dailyReport = new System.Windows.Forms.RichTextBox();
             this.btnLogoutManager = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -79,6 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewShowParkingSpace)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -497,7 +500,7 @@
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.richTextBox1);
+            this.groupBox6.Controls.Add(this.feedback);
             this.groupBox6.Location = new System.Drawing.Point(488, 335);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox6.Name = "groupBox6";
@@ -505,10 +508,21 @@
             this.groupBox6.Size = new System.Drawing.Size(348, 291);
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "groupBox6";
+            this.groupBox6.Text = "feedback from customer";
+            // 
+            // feedback
+            // 
+            this.feedback.Location = new System.Drawing.Point(6, 24);
+            this.feedback.Name = "feedback";
+            this.feedback.Size = new System.Drawing.Size(336, 262);
+            this.feedback.TabIndex = 3;
+            this.feedback.Text = "";
+            this.feedback.TextChanged += new System.EventHandler(this.feedback_TextChanged);
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.showsalary);
+            this.groupBox5.Controls.Add(this.calsalary);
             this.groupBox5.Location = new System.Drawing.Point(487, 9);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox5.Name = "groupBox5";
@@ -516,7 +530,26 @@
             this.groupBox5.Size = new System.Drawing.Size(349, 292);
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "groupBox5";
+            this.groupBox5.Text = "salary";
+            // 
+            // showsalary
+            // 
+            this.showsalary.AutoSize = true;
+            this.showsalary.Location = new System.Drawing.Point(41, 135);
+            this.showsalary.Name = "showsalary";
+            this.showsalary.Size = new System.Drawing.Size(21, 20);
+            this.showsalary.TabIndex = 1;
+            this.showsalary.Text = "llll";
+            // 
+            // calsalary
+            // 
+            this.calsalary.Location = new System.Drawing.Point(103, 44);
+            this.calsalary.Name = "calsalary";
+            this.calsalary.Size = new System.Drawing.Size(119, 70);
+            this.calsalary.TabIndex = 0;
+            this.calsalary.Text = "calculator salary";
+            this.calsalary.UseVisualStyleBackColor = true;
+            this.calsalary.Click += new System.EventHandler(this.calsalary_Click);
             // 
             // groupBox4
             // 
@@ -551,14 +584,6 @@
             this.btnLogoutManager.UseVisualStyleBackColor = true;
             this.btnLogoutManager.Click += new System.EventHandler(this.btnLogoutManager_Click);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(6, 24);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(336, 262);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
-            // 
             // Manager_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -586,6 +611,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewShowParkingSpace)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -635,6 +662,8 @@
         private System.Windows.Forms.DataGridView dataGridViewChatfromManager;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.RichTextBox dailyReport;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox feedback;
+        private System.Windows.Forms.Button calsalary;
+        private System.Windows.Forms.Label showsalary;
     }
 }

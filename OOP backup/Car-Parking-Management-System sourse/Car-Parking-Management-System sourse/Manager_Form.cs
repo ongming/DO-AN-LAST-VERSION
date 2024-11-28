@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI.HtmlControls;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 
 namespace Car_Parking_Management_System_sourse
 {
@@ -18,6 +19,7 @@ namespace Car_Parking_Management_System_sourse
         private List<ParkingSpace> parking;
         private List<Customer> customers;
         private string filepath_dailyReport = "daily_report.txt";
+        private string filepath_feedback = "Feedback.txt";
         public Manager_Form(List<ParkingSpace> parking, List<Customer> customers)
         {
             InitializeComponent();
@@ -26,6 +28,8 @@ namespace Car_Parking_Management_System_sourse
             dataGridViewShowParkingSpace.DataSource = parking;
             this.customers = customers;
             dailyReport.LoadFile(filepath_dailyReport, RichTextBoxStreamType.PlainText);
+            feedback.LoadFile(filepath_feedback, RichTextBoxStreamType.PlainText);
+
             combineDataChat = customers.Where(customer => customer.RequestMessorChangPass == "Request Message Manager").Select(customer => new
             {
                 customer.Id,
@@ -204,6 +208,39 @@ namespace Car_Parking_Management_System_sourse
             //    }
             //    MessageBox.Show("Incorrect information", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
             //}
+        }
+
+        private void feedback_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void calsalary_Click(object sender, EventArgs e)
+        {
+            int count_for_lamnguyen = 0;
+            int count_for_tanle = 0;
+            int total = 0;
+            foreach (string line in File.ReadLines("daily_report.txt"))
+            {
+                if (line.Contains("in:"))
+                {
+                    total += (int)(line[34]-'0');
+                }
+                else if (line.Contains("out:"))
+                {
+                    total += (int)(line[35] - '0');
+                }
+                if (line.Contains("AT001"))
+                {
+                    count_for_lamnguyen++;
+                }
+                else if (line.Contains("AT002"))
+                {
+                    count_for_tanle++;
+                }
+            }
+            string show = $"total revenue: {total}\nLam Nguyen's salary: {count_for_lamnguyen}\nTan Le's salary: {count_for_tanle}";
+            showsalary.Text = show;
         }
     }
 }
