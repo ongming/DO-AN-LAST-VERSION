@@ -113,6 +113,16 @@ namespace Car_Parking_Management_System_sourse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chuông_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("chuông-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_messenger_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("icon_messenger-removebg-preview", resourceCulture);

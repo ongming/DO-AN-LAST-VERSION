@@ -19,9 +19,13 @@ namespace Car_Parking_Management_System_sourse
         List<dynamic> combineDataParking;
         List<dynamic> combineDataReceive;
         List<dynamic> combineDataChat;
+        string filepath;
+        string id;
 
-        public Attendant__Form(string name,List<Customer> customers, List<ParkingSpace> parkingSpaces)
+        public Attendant__Form(string name,string id, List<Customer> customers, List<ParkingSpace> parkingSpaces)
         {
+            this.id = id;
+            this.filepath = "daily_report.txt";
             InitializeComponent();
             lbname.Text = name;
             this.customers = customers;
@@ -118,6 +122,8 @@ namespace Car_Parking_Management_System_sourse
                             {
                                 if (parkingSpaces[n].Id_carparking == customers[j].Request.Substring(25))
                                 {
+                                    string formattedMessage = $"in:[{DateTime.Now:yyyy-MM-dd HH:mm:ss}]+{parkingSpaces[n].ToString()} from{id} ";
+                                    File.AppendAllText(filepath, formattedMessage + Environment.NewLine);
                                     parkingSpaces[n].Status = "Hired";
                                     parkingSpaces[n].Ticketseri = $"QMTL{txtTicketseri.Text}";
                                     ParkingSpace.writeparkingdata(parkingSpaces);
@@ -162,6 +168,8 @@ namespace Car_Parking_Management_System_sourse
                             {
                                 if (parkingSpaces[k].Ticketseri == customers[j].Ticketseri)
                                 {
+                                    string formattedMessage = $"out:[{DateTime.Now:yyyy-MM-dd HH:mm:ss}]+{parkingSpaces[k].ToString()} from{id}";
+                                    File.AppendAllText(filepath, formattedMessage + Environment.NewLine);
                                     parkingSpaces[k].changeInfo("", "", "Empty", "");
                                     ParkingSpace.writeparkingdata(parkingSpaces);
                                     break;
