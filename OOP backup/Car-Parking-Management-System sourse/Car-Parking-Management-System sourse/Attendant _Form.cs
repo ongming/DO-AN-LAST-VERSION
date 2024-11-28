@@ -22,7 +22,7 @@ namespace Car_Parking_Management_System_sourse
         string filepath;
         string id;
 
-        public Attendant__Form(string name,string id, List<Customer> customers, List<ParkingSpace> parkingSpaces)
+        public Attendant__Form(string name, string id, List<Customer> customers, List<ParkingSpace> parkingSpaces)
         {
             this.id = id;
             this.filepath = "daily_report.txt";
@@ -34,7 +34,8 @@ namespace Car_Parking_Management_System_sourse
                                                                                 customer => customer.Request.Substring(25),
                                                                                 parkingspace => parkingspace.Id_carparking,
                                                                                 (customer, parkingspace) =>
-                                                                                new {
+                                                                                new
+                                                                                {
                                                                                     customer.Id,
                                                                                     customer.Fullname,
                                                                                     parkingspace.Name_car,
@@ -48,7 +49,8 @@ namespace Car_Parking_Management_System_sourse
                                                                                 customer => customer.Ticketseri,
                                                                                 parkingspace => parkingspace.Ticketseri,
                                                                                 (customer, parkingspace) =>
-                                                                                new {
+                                                                                new
+                                                                                {
                                                                                     customer.Id,
                                                                                     customer.Ticketseri,
                                                                                     parkingspace.Id_carparking,
@@ -58,17 +60,15 @@ namespace Car_Parking_Management_System_sourse
                                                                                     customer.Request
                                                                                 }
                                                                                 ).Cast<dynamic>().ToList();
-            combineDataChat = customers.Where(customer => customer.RequestMessorChangPass=="Request Message").Select(customer => new
+            var combineDataChat = customers.Select(customer => new
             {
-                customer.Id,
                 customer.Fullname,
-                customer.Ticketseri,
-                customer.Age,
                 customer.Phonenumber,
-                customer.Wallet
-            }
-            ).Cast<dynamic>().ToList();
-
+                customer.RequestMessorChangPass,
+                customer.Id
+            })
+            .Cast<dynamic>()
+            .ToList();
             dataGidviewChat.DataSource = combineDataChat;
             for (int i = 0; i < dataGidviewChat.Columns.Count; i++)
             {
@@ -79,9 +79,9 @@ namespace Car_Parking_Management_System_sourse
             dataGridViewParkingCar.DataSource = combineDataParking;
             dataGridViewReceiveCar.DataSource = combineDataReceive;
         }
-        public void showData(List<Customer> customers,List<ParkingSpace> parkingspaces)
+        public void showData(List<Customer> customers, List<ParkingSpace> parkingspaces)
         {
-            
+
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -102,11 +102,11 @@ namespace Car_Parking_Management_System_sourse
                 // câu đièu kiện bên dưới để kiểm tra coi ID nhập vào có trong gridview ko
                 if (dataGridViewParkingCar.Rows[i].Cells["Id"].Value.ToString() == txtIDCustomer.Text)
                 {
-                    var newdata=combineDataParking.Where(c=>c.Id!=txtIDCustomer.Text).ToList();
+                    var newdata = combineDataParking.Where(c => c.Id != txtIDCustomer.Text).ToList();
                     for (int j = 0; j < customers.Count; j++)
                     {
                         //vòng for dùng để lọc xem thử coi mã ID có trùng không
-                        for(int k = 0; k < customers.Count; k++)
+                        for (int k = 0; k < customers.Count; k++)
                         {
                             if (customers[k].Ticketseri == $"QMTL{txtTicketseri.Text}")
                             {
@@ -149,13 +149,13 @@ namespace Car_Parking_Management_System_sourse
         private void btnRandom_Click(object sender, EventArgs e)
         {
             Random random = new Random();
-            int numberseri=random.Next(1000, 9999);
+            int numberseri = random.Next(1000, 9999);
             txtTicketseri.Text = numberseri.ToString();
         }
 
         private void btnAcceptReceive_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < dataGridViewReceiveCar.Rows.Count; i++)
+            for (int i = 0; i < dataGridViewReceiveCar.Rows.Count; i++)
             {
                 if (dataGridViewReceiveCar.Rows[i].Cells["Id"].Value.ToString() == txtIDofCustomerReceive.Text)
                 {
@@ -202,7 +202,7 @@ namespace Car_Parking_Management_System_sourse
             using (StreamWriter sw = new StreamWriter(filepath, true))
             {
                 sw.WriteLine(txtReasonDenyParking.Text);
-                
+
             }
             for (int i = 0; i < customers.Count; i++)
             {
@@ -225,12 +225,57 @@ namespace Car_Parking_Management_System_sourse
                     combineDataParking = newdata;
                     break;
                 }
-            }        
+            }
             dataGridViewParkingCar.DataSource = null;
             dataGridViewParkingCar.DataSource = combineDataParking;
             Customer.WriteCustomerList(this.customers);
             MessageBox.Show("Deny Complete GOOD JOB!", "System");
             return;
+        }
+
+        private void btnChat_Click(object sender, EventArgs e)
+        {
+            if (txtIDChat.Text == null)
+            {
+                MessageBox.Show("Plesae enter customer id!", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                for (int i = 0; i < customers.Count; i++)
+                {
+                    if (customers[i].Id == txtIDChat.Text)
+                    {
+
+                        Messenger Form = new Messenger(customers[i].Id, "MA001", customers[i].Fullname, customers);
+                        Form.ShowDialog();
+                        customers[i].RequestMessorChangPass = "no";
+                        Customer.WriteCustomerList(customers);
+                        var combineDataChat = customers.Select(customer => new
+                        {
+                            customer.Fullname,
+                            customer.Phonenumber,
+                            customer.RequestMessorChangPass,
+                            customer.Id
+                        })
+                        .Cast<dynamic>()
+                        .ToList();
+
+
+                        dataGidviewChat.DataSource = combineDataChat;
+                        for (int j = 0; j < dataGidviewChat.Columns.Count; j++)
+                        {
+                            dataGidviewChat.Columns[j].DisplayIndex = dataGidviewChat.Columns.Count - 1 - j;
+                        }
+                        return;
+                    }
+                }
+                MessageBox.Show("Incorrect information", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void dataGidviewChat_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

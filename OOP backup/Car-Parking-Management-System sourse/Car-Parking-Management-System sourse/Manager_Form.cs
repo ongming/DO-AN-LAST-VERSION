@@ -17,6 +17,7 @@ namespace Car_Parking_Management_System_sourse
         List<dynamic> combineDataChat;
         private List<ParkingSpace> parking;
         private List<Customer> customers;
+        private string filepath_dailyReport = "daily_report.txt";
         public Manager_Form(List<ParkingSpace> parking, List<Customer> customers)
         {
             InitializeComponent();
@@ -24,6 +25,7 @@ namespace Car_Parking_Management_System_sourse
             dataGridViewShowParkingSpace.DataSource = null;
             dataGridViewShowParkingSpace.DataSource = parking;
             this.customers = customers;
+            dailyReport.LoadFile(filepath_dailyReport, RichTextBoxStreamType.PlainText);
             combineDataChat = customers.Where(customer => customer.RequestMessorChangPass == "Request Message Manager").Select(customer => new
             {
                 customer.Id,
@@ -203,6 +205,5 @@ namespace Car_Parking_Management_System_sourse
             //    MessageBox.Show("Incorrect information", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
             //}
         }
-
     }
 }
