@@ -21,10 +21,12 @@ namespace Car_Parking_Management_System_sourse
         string name_customer;
         string name_attendant;
         bool flag;
-        public Messenger(string id_customer, string id_attendant, string name_customer)
+        List<Customer> customerList;
+        public Messenger(string id_customer, string id_attendant, string name_customer, List<Customer> customers)
         {
             InitializeComponent();
             filePath = $"{id_customer}_{id_attendant}.txt";
+            this.customerList = customers;
             this.id_attendant = id_attendant;
             this.id_customer = id_customer;
             this.name_customer = name_customer;
@@ -32,10 +34,11 @@ namespace Car_Parking_Management_System_sourse
             flag = true;
             LoadMessages();
         }
-        public Messenger(string id_customer, string id_attendant, string name_customer,string name_attendant)
+        public Messenger(string id_customer, string id_attendant, string name_customer,string name_attendant,List<Customer> customers)
         {
             InitializeComponent();
             filePath = $"{id_customer}_{id_attendant}.txt";
+            this.customerList = customers;
             this.id_attendant = id_attendant;
             this.id_customer = id_customer;
             this.name_customer = name_customer;
@@ -132,6 +135,22 @@ namespace Car_Parking_Management_System_sourse
 
         private void send_message_Click(object sender, EventArgs e)
         {
+            for(int i = 0;i<customerList.Count;i++)
+            {
+                if (customerList[i].Id == id_customer)
+                {   
+                    if(this.id_attendant == "MA001")
+                    {
+                        customerList[i].RequestMessorChangPass = "Request Message Manager";
+                    }
+                    if (this.id_attendant == "AT001" || this.id_attendant == "AT002")
+                    {
+                        customerList[i].RequestMessorChangPass = "Request Message Attendant";
+                    }
+                    break;   
+                }
+            }
+            Customer.WriteCustomerList(customerList);
             string message = text_input.Text.Replace("\r", "").Replace("\n", "");
 
             if (!string.IsNullOrEmpty(message))

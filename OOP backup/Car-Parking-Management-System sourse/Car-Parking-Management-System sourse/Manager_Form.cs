@@ -14,6 +14,7 @@ namespace Car_Parking_Management_System_sourse
 {
     public partial class Manager_Form : Form
     {
+        List<dynamic> combineDataChat;
         private List<ParkingSpace> parking;
         private List<Customer> customers;
         public Manager_Form(List<ParkingSpace> parking, List<Customer> customers)
@@ -23,6 +24,17 @@ namespace Car_Parking_Management_System_sourse
             dataGridViewShowParkingSpace.DataSource = null;
             dataGridViewShowParkingSpace.DataSource = parking;
             this.customers = customers;
+            combineDataChat = customers.Where(customer => customer.RequestMessorChangPass == "Request Message Manager").Select(customer => new
+            {
+                customer.Id,
+                customer.Fullname,
+                customer.Ticketseri,
+                customer.Age,
+                customer.Phonenumber,
+                customer.Wallet
+            }
+            ).Cast<dynamic>().ToList();
+            dataGridViewChatfromManager.DataSource = combineDataChat;
         }
         public void writeData()
         {
@@ -148,23 +160,48 @@ namespace Car_Parking_Management_System_sourse
 
         private void start_chat_Click(object sender, EventArgs e)
         {
+            
             if (search_id_customer_for_chat.Text == null)
             {
                 MessageBox.Show("Plesae enter customer id!", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                for (int i = 0; i < customers.Count; i++)
+                for (int i = 0; i < dataGridViewChatfromManager.Rows.Count; i++)
                 {
-                    if (customers[i].Id == search_id_customer_for_chat.Text)
+                    if (dataGridViewChatfromManager.Rows[i].Cells["Id"].Value.ToString() == search_id_customer_for_chat.Text)
                     {
-                        Messenger Form = new Messenger(customers[i].Id, "MA001", customers[i].Fullname);
-                        Form.ShowDialog();
-                        return;
+                        var newdata = combineDataChat.Where(c => c.Id != search_id_customer_for_chat.Text).ToList();
+                        for (int j = 0; j < customers.Count; j++)
+                        {
+                            if (customers[j].Id == search_id_customer_for_chat.Text)
+                            {
+                                customers[j].RequestMessorChangPass = "no";
+                                combineDataChat = newdata;
+                                dataGridViewChatfromManager.DataSource = null;
+                                dataGridViewChatfromManager.DataSource = combineDataChat;
+                                Messenger Form = new Messenger(customers[j].Id, "MA001", customers[j].Fullname,customers);
+                                Form.ShowDialog();
+                                return;
+                            }
+                        }
                     }
                 }
                 MessageBox.Show("Incorrect information", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            //else
+            //{
+            //    for (int i = 0; i < customers.Count; i++)
+            //    {
+            //        if (customers[i].Id == search_id_customer_for_chat.Text)
+            //        {
+            //            Messenger Form = new Messenger(customers[i].Id, "MA001", customers[i].Fullname);
+            //            Form.ShowDialog();
+            //            return;
+            //        }
+            //    }
+            //    MessageBox.Show("Incorrect information", "Message Box Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
         }
 
     }

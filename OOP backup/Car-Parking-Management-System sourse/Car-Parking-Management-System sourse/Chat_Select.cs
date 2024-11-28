@@ -34,21 +34,21 @@ namespace Car_Parking_Management_System_sourse
 
         private void btnSelectTanLe_Click(object sender, EventArgs e)
         {
-            Messenger form = new Messenger(id, "AT002", name, "Tan Le");
+            Messenger form = new Messenger(id, "AT002", name, "Tan Le",customers);
             this.Close();
             form.ShowDialog();
         }
 
         private void btnSelectQuangMinh_Click(object sender, EventArgs e)
         {
-            Messenger form = new Messenger(id, "MA001", name, "Quang Minh");
+            Messenger form = new Messenger(id, "MA001", name, "Quang Minh",customers);
             this.Close();
             form.ShowDialog();
         }
 
         private void btnSelectLamNguyen_Click(object sender, EventArgs e)
         {
-            Messenger form = new Messenger(id, "AT001", name, "Lam Nguyen");
+            Messenger form = new Messenger(id, "AT001", name, "Lam Nguyen",customers);
             this.Close();
             form.ShowDialog();
         }

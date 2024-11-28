@@ -7,8 +7,8 @@ Vu
 namvu
 1
 no
-Request Parking Space ID:VIP001
-no
+no request
+Request Message Manager
 7
 2
 Nguyen
